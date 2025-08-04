@@ -9,8 +9,25 @@ body.home {
 
 header {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
     background: none;
+}
+
+.header-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    max-width: 80px; /* loghi ridimensionati, non troppo grandi */
+    height: auto;
+}
+
+.title-container {
+    flex: 1;
+    text-align: center;
 }
 
 .main-title {
@@ -22,7 +39,7 @@ header {
 .subtitle {
     color: white;
     font-size: 1.2rem;
-    margin: 0.5rem 0 2rem;
+    margin: 0.5rem 0 1rem;
 }
 
 .nav-links {
@@ -32,7 +49,7 @@ header {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .nav-links a {
@@ -50,4 +67,14 @@ footer {
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
+}
+
+@media (max-width: 600px) {
+    .header-logos {
+        flex-direction: column;
+    }
+    .logo {
+        max-width: 60px;
+        margin-bottom: 0.5rem;
+    }
 }
