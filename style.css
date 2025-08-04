@@ -14,7 +14,7 @@ header {
 }
 
 .main-title {
-    color: #FFA500; /* arancio intenso */
+    color: #FF4500; /* arancio più forte */
     font-size: 2.5rem;
     margin: 0;
 }
@@ -42,7 +42,6 @@ header {
 }
 
 main {
-    text-align: center;
     padding: 2rem 1rem;
 }
 
