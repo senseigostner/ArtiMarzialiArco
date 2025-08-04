@@ -1,6 +1,6 @@
 
 body.home {
-    background-color: #007BFF; /* azzurro intenso */
+    background-color: #007BFF;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,16 +12,15 @@ header {
     background: none;
 }
 
-.header-logos-title {
+.header-logos-title.fixed-layout {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     text-align: center;
 }
 
 .logo {
-    max-width: 80px; /* loghi ridimensionati */
+    max-width: 60px;
     height: auto;
     flex-shrink: 0;
 }
@@ -32,14 +31,14 @@ header {
 }
 
 .main-title {
-    color: #FF4500; /* arancio più forte */
-    font-size: 2.5rem;
+    color: #FF7F32; /* arancio meno intenso */
+    font-size: 2.2rem;
     margin: 0;
 }
 
 .subtitle {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0.5rem 0 1rem;
 }
 
@@ -68,14 +67,4 @@ footer {
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
-}
-
-@media (max-width: 600px) {
-    .header-logos-title {
-        flex-direction: column;
-    }
-    .logo {
-        max-width: 60px;
-        margin-bottom: 0.5rem;
-    }
 }
