@@ -8,26 +8,27 @@ body.home {
 }
 
 header {
-    text-align: center;
     padding: 1rem 1rem 0.5rem 1rem;
     background: none;
 }
 
-.header-logos {
+.header-logos-title {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .logo {
-    max-width: 80px; /* loghi ridimensionati, non troppo grandi */
+    max-width: 80px; /* loghi ridimensionati */
     height: auto;
+    flex-shrink: 0;
 }
 
-.title-container {
+.title-text {
     flex: 1;
-    text-align: center;
+    padding: 0 10px;
 }
 
 .main-title {
@@ -70,7 +71,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-    .header-logos {
+    .header-logos-title {
         flex-direction: column;
     }
     .logo {
