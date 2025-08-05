@@ -22,8 +22,9 @@ header {
 }
 
 .logo {
-    width: 50px;
+    width: 60px;
     height: auto;
+    flex-shrink: 0;
 }
 
 .title-text {
@@ -33,14 +34,14 @@ header {
 }
 
 .main-title {
-    color: #FF7F32; /* arancione meno intenso */
-    font-size: 1.8rem;
+    color: #FF7F32;
+    font-size: 2.2rem;
     margin: 0;
 }
 
 .subtitle {
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0.5rem 0 1rem;
 }
 
@@ -60,18 +61,6 @@ header {
     font-weight: bold;
 }
 
-main {
-    padding: 2rem 1rem;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: white;
-}
-
-
 .central-photo {
     text-align: center;
     margin: 30px 20px;
@@ -80,127 +69,13 @@ footer {
 .central-photo img {
     max-width: 90%;
     height: auto;
-    border: 8px solid #FF7F32; /* bordo arancione */
+    border: 8px solid #FF7F32;
     border-radius: 12px;
 }
 
-
 .whatsapp-contact {
     text-align: center;
-    margin-top: 20px;
-}
-
-.whatsapp-contact a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    text-align: center;
-}
-
-.whatsapp-logo {
-    width: 40px;
-    height: auto;
-    vertical-align: middle;
-    margin-bottom: 5px;
-}
-
-
-.whatsapp-contact {
-    text-align: center;
-    margin: 20px 0 40px;
-}
-
-.whatsapp-contact a {
-    text-decoration: none;
-    color: white;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 16px;
-    background-color: #25D366;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
-}
-
-.whatsapp-contact a:hover {
-    background-color: #1ebe5d;
-}
-
-.whatsapp-logo {
-    width: 24px;
-    height: 24px;
-}
-
-
-.whatsapp-contact {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.whatsapp-contact img.whatsapp-banner {
-    width: auto;
-    max-width: 320px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
-
-
-.whatsapp-contact {
-    text-align: center;
-    margin: 30px 0;
-}
-
-.whatsapp-contact img.whatsapp-compact {
-    max-width: 240px;
-    height: auto;
-    border-radius: 8px;
-}
-
-
-.whatsapp-contact {
-    text-align: center;
-    margin: 20px 0 40px;
-}
-
-.whatsapp-contact img.whatsapp-button {
-    max-width: 200px;
-    height: auto;
-    display: inline-block;
-    border: none;
-}
-
-
-.whatsapp-contact {
-    text-align: center;
-    margin: 20px 0 40px;
-}
-
-.whatsapp-contact a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-}
-
-.whatsapp-contact img.whatsapp-button {
-    max-width: 200px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border: none;
-}
-
-.whatsapp-contact .whatsapp-text {
-    margin-top: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-}
-
-
-.whatsapp-contact {
-    text-align: center;
-    margin: 20px 0 40px;
+    margin: 30px 0 40px;
 }
 
 .whatsapp-contact img.whatsapp-button {
@@ -209,4 +84,11 @@ footer {
     display: inline-block;
     border: none;
     border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
 }
