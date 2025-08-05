@@ -70,3 +70,16 @@ footer {
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
 }
+
+
+.central-photo {
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.central-photo img {
+    max-width: 90%;
+    height: auto;
+    border: 8px solid #FF7F32; /* bordo arancione */
+    border-radius: 12px;
+}
