@@ -3,6 +3,8 @@ body.home {
     background-color: #007BFF;
     color: white;
     font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
@@ -79,7 +81,7 @@ header {
 }
 
 .whatsapp-contact img.whatsapp-button {
-    max-width: 265px;
+    max-width: 160px;
     height: auto;
     display: inline-block;
     border: none;
