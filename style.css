@@ -83,3 +83,23 @@ footer {
     border: 8px solid #FF7F32; /* bordo arancione */
     border-radius: 12px;
 }
+
+
+.whatsapp-contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatsapp-contact a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.whatsapp-logo {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
