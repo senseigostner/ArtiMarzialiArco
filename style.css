@@ -21,28 +21,3 @@
         line-height: 1.4;
     }
 }
-
-@media screen and (max-width: 768px) {
-    .header-logos-title {
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-
-    .title-text {
-        text-align: center;
-        padding: 0 10px;
-    }
-
-    .logo.left,
-    .logo.right {
-        width: 50px;
-    }
-
-    .main-title {
-        font-size: 1.6rem;
-    }
-
-    .subtitle-line {
-        font-size: 1rem;
-    }
-}
