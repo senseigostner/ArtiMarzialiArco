@@ -99,10 +99,7 @@ footer {
     margin: 20px 0;
 }
 
-.whatsapp-logo img {
-    width: 140px;
-    height: auto;
-}
+
 
 /* Responsive layout */
 @media screen and (max-width: 768px) {
@@ -133,7 +130,5 @@ footer {
         max-width: 200px;
     }
 
-    .whatsapp-logo img {
-        width: 100px;
-    }
+    
 }
