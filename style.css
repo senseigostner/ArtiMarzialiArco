@@ -93,18 +93,17 @@ footer {
     color: white;
 }
 
-/* WhatsApp logo */
-.whatsapp-logo {
+/* WhatsApp Icon */
+.whatsapp-icon {
     text-align: center;
     margin: 30px 0;
 }
-
-.whatsapp-logo img {
-    width: 120px;
+.whatsapp-icon img {
+    width: 60px;
     height: auto;
 }
 
-/* Forza layout dei loghi ai lati del titolo su mobile */
+/* Corretto layout per loghi e nav su mobile */
 .header-logos-title {
     display: flex;
     align-items: center;
@@ -113,26 +112,42 @@ footer {
 }
 
 .nav-links {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    padding: 0;
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 768px) {
     .main-title {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .subtitle {
         font-size: 1rem;
+        text-align: center;
     }
 
     .logo {
         width: 50px;
+        height: auto;
     }
 
     .nav-links {
-        flex-direction: row; /* forza orizzontale anche su mobile */
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .central-photo img {
+        max-width: 100%;
+    }
+
+    .whatsapp-icon img {
+        width: 50px;
     }
 }
